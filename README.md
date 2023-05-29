@@ -8,7 +8,12 @@ Table of contents:
 Layout:
 Main Page (index.html)
 
+Game page
+
 Character Page
 
 -Character Page List
 
+Tool used
+
+-Tailwind CSS
