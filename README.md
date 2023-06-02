@@ -1,19 +1,12 @@
 # Character-Wiki
-Date start: May 26, 2023
 
-Description:
+## 📝 Summary 
+Date started: May 26, 2023
+<div>
+    <img src="https://img.shields.io/github/last-commit/amchatman/character-wiki?color=blue&style=flat">
+    <img src="https://img.shields.io/badge/TailwindCSS-v3.3.2-blue">
+</div>
 
-Table of contents:
+### Technologies
+- <a href="https://tailwindcss.com/">TailwindCSS</a>
 
-Layout:
-Main Page (index.html)
-
-Game page
-
-Character Page
-
--Character Page List
-
-Tool used
-
--Tailwind CSS
