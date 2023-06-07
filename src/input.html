@@ -5,33 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Character Wiki</title>
 </head>
 <body>
-    <header>
+   <header class="flex bg-slate-300">
         <h2>Character Wiki</h2>
-        <input type="search" placeholder="Search">
-        <button>Search</button>
+        <div class="search">
+            <input type="search" placeholder="Search..." class="border-2">
+            <button type="submit" class="border-2">
+                <span class="material-symbols-sharp">search</span>
+            </button>
+        </div>
     </header>
-    <nav>
-        ☰
-        <ul>
-            <li>
-                <a href="#">Main Page</a>
-            </li>
-            <li>
-                <a href="#">Games</a>
-            </li>
-            <li>
-                <a href="#">Characters</a>
-            </li>
-            <li>
-                <a href="#">Random article</a>
-            </li>
-            <li>
-                <a href="#">About Character Wiki</a>
-            </li>
-        </ul>
-    </nav>
+    
 </body>
 </html>
