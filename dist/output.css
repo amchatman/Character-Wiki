@@ -550,6 +550,10 @@ video {
   width: 24rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .items-center {
   align-items: center;
 }
@@ -561,6 +565,11 @@ video {
 .bg-slate-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -577,6 +586,10 @@ video {
 
 .p-2\.5 {
   padding: 0.625rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .pr-10 {
