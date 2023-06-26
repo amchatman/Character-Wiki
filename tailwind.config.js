@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'game-cover': "url('/src/img/MassEffect.jpg')",
+      }
+    },
   },
   plugins: [],
 }
