@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Character</title>
 </head>
 <body>
-    
+    <!--Header Section-->
+   <header class="bg-slate-300">
+    <div class="flex items-center w-11/12 ml-auto mr-auto p-2.5 max-sm:justify-between">
+           <button id="nav-button" class="material-symbols-outlined pr-10">menu </button> 
+           
+       <h2>Character Wiki</h2>
+       <div class="search">
+           <input type="search" placeholder="Search..." class="border-2 w-96 ml-6 p-1.5 max-sm:hidden">
+           <button class="hidden max-sm:inline">
+               <span class="material-symbols-sharp">search</span>
+           </button>
+       </div>
+       </div>
+   </header>
+   <!--Navigation Section -->
+   <nav>
+       <div id="nav-menu" class="w-40 bg-slate-600 absolute left-0">
+           <ul class="p-8">
+               <li><a href="index.html">Main Page</a></li>
+               <li><a href="#">All Pages</a></li>
+               <li><a href="#">Games</a></li>
+               <li><a href="character.html">Characters</a></li>
+               <li><a href="#">About</a></li>
+           </ul> 
+       </div>
+   </nav>
+   <script src="script.js"></script>
 </body>
 </html>
