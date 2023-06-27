@@ -650,12 +650,24 @@ video {
   background-image: url('/src/img/MassEffect.jpg');
 }
 
+.bg-mass-cover {
+  background-image: url('/src/img/andromeda-cover.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+.bg-right {
+  background-position: right;
 }
 
 .bg-no-repeat {

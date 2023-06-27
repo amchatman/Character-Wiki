@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'game-cover': "url('/src/img/MassEffect.jpg')",
+        'mass-cover': "url('/src/img/andromeda-cover.jpg')",
       }
     },
   },
