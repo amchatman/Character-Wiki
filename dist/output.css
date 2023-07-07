@@ -667,6 +667,11 @@ video {
   background-color: rgb(21 128 61 / var(--tw-bg-opacity));
 }
 
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
 .bg-game-cover {
   background-image: url('/src/img/MassEffect.jpg');
 }
